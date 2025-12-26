@@ -1,16 +1,17 @@
 {
-  "name": "azure-managed-identity-demo",
+  "name": "azure-node-app",
   "version": "1.0.0",
   "type": "module",
-  "engines": {
-    "node": ">=22"
-  },
+  "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
+  "engines": {
+    "node": "22.x"
+  },
   "dependencies": {
+    "express": "^4.19.2",
     "@azure/identity": "^4.5.0",
-    "@azure/storage-blob": "^12.25.0",
-    "express": "^4.19.2"
+    "@azure/storage-blob": "^12.25.0"
   }
 }
